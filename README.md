@@ -88,4 +88,8 @@ http://localhost:8080/
 ```
 Step 3: Open Video Folder for full demo
         
-
+## My Role in the project
+- Contributed to the backend development of the application using the Flask web framework as part of a team.
+- Created a chatbot using a large language model (LLM) 
+- Developed an interview practice chatbot using the Llama 3-8B-8192 large language model, deployed and optimized on GroqCloud for scalable, high-performance inference. The chatbot simulates interview scenarios, providing real-time feedback and personalized question generation to enhance user practice.
+- Developed a program that generates recommended LeetCode questions tailored to specific job titles, utilizing algorithms to match relevant coding problems with job requirements and skill levels.
