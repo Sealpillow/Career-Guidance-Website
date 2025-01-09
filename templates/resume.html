@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'resume' %}
+
+{% block title %}
+    Resume - NTUCCDS
+{% endblock %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='resume_generate.css')}}">
+{% endblock %} <!-- Additional styles block -->
+
+{% block content %}
+    <div class="container-main">
+        <div class="resume-preview">
+            <h3>Uploaded Resume Preview</h3>
+            {% if filename %}
+                <iframe src="{{ url_for('upload_file', filename=filename) }}" width="100%" height="600px" style="border: none;" onerror="this.onerror=null; this.src='path/to/error-page.html';"></iframe>
+            {% else %}
+                <p>No resume available for preview.</p>
+            {% endif %}
+        </div>
+           
+        <form method="post" action="/uploadResume"  enctype="multipart/form-data">
+            <input type="file" name="file" accept="application/pdf" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+{% endblock %}

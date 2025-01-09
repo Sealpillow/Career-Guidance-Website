@@ -1,0 +1,106 @@
+{
+    "contact": "Brendon Tan | Mobile No.: (+65) 9662 5038 | Email: brendontan003@gmail.com",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Pursuing a Bachelor of Engineering in Computer Science, anticipating graduation with Honours (Distinction) with a CGPA of 4.32/5.00",
+                    "Developed proficient skills in programming through coursework and projects, including Python programming language and strong foundation in data engineering principles",
+                    "Familiarity with database technologies and data analytics, refining skills in data processing, data science, and software development for streamlined software development and data visualization"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "AI Chatbot Development for Efficient Data Processing",
+                "details": [
+                    "Developed a high-accuracy AI chatbot utilizing Talend's data manipulation capabilities to streamline FAQs about Nanyang Technological University, achieving a remarkable 90% response accuracy with automated data processing and quality control.",
+                    "Optimized performance and enhanced response accuracy by integrating OpenAI's embedding model, Google Cloud's Vertex AI, and ChromaDB, showcasing expertise in scalability, data pipeline development, and applied data engineering principles.",
+                    "Designed and developed efficient ETL workflows for high-quality data processing and effective database design for both relational and NoSQL databases, ensuring seamless data integration and streamlined data management."
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "experience": [
+            {
+                "position_title": "Data Engineer Intern",
+                "company": "DBS Bank Ltd",
+                "details": [
+                    "Designed and developed a scalable data pipeline using Apache Spark, Python, and Python libraries, showcasing expertise in data processing and integration.",
+                    "Collaborated with stakeholders to understand data requirements, ensuring timely and effective data delivery through optimized workflows, demonstrating strong communication and project management skills.",
+                    "Developed and maintained ETL workflows and data pipelines, utilizing Talend, demonstrating proficiency in the technology and ability to apply it in a real-world setting."
+                ]
+            },
+            {
+                "position_title": "Software Engineer Intern",
+                "company": "FoodLine.sg Pte Ltd",
+                "details": [
+                    "Integrated Zoho CRM with a full-stack web application to enhance customer-facing processes and lead management with increased efficiency and responsiveness, showcasing expertise in web development and integration.",
+                    "Designed and implemented secure database schemas in MySQL, leveraging prepared statements and data sanitization for robust data protection, demonstrating knowledge of database security and best practices.",
+                    "Ensured responsive backend functionalities using PHP and JavaScript for server-side scripting, resulting in improved overall application performance, highlighting attention to detail and ability to optimize code."
+                ]
+            },
+            {
+                "position_title": "Software Engineer Intern",
+                "company": "Undercurrent Capital Pte Ltd",
+                "details": [
+                    "Developed front-end interfaces for Decentralized Applications (DApps) using React and Tailwind CSS, delivering a modern and user-friendly interface, demonstrating proficiency in front-end development and design principles.",
+                    "Composed highly efficient and secure smart contracts using Pyteal and JavaScript for various DApps features, ensuring robust and reliable functionality, showcasing expertise in smart contract development and blockchain technologies.",
+                    "Autored comprehensive test cases using Mocha Testing Framework and conducted end-to-end testing for successful deployment, ensuring defect-free deployment, highlighting attention to detail and commitment to quality."
+                ]
+            }
+        ]
+    },
+    "co_curricular": {
+        "co_curricular_activities": [
+            {
+                "activity_name": "Freshmen Orientation Programme",
+                "details": [
+                    "Developed and coordinated data-driven activities for 250 freshmen, showcasing analytical skills and ability to work with large datasets",
+                    "Assembled and led Programme Committee, demonstrating leadership and project management skills to deliver a successful event",
+                    "Utilized problem-solving and analytical skills to overcome logistical challenges and ensureevent success"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "skills": {
+            "languages": [
+                "English: Proficient"
+            ],
+            "programming_languages": [
+                "JavaScript",
+                "HTML",
+                "JSON",
+                "PowerShell",
+                ".NET/C#",
+                "ASP.NET"
+            ],
+            "frameworks_libraries": [
+                "SPFX",
+                "PowerFX"
+            ],
+            "technologies": [
+                "Microsoft Power Platform",
+                "M365",
+                "SharePoint Online",
+                "Power Apps",
+                "Power Automate",
+                "Power BI",
+                "Dataverse",
+                "Azure DevOps",
+                "Git",
+                "Team Foundation Server",
+                "Entra ID",
+                "OneDrive",
+                "MS Forms"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

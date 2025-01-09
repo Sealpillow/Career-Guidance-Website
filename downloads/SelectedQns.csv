@@ -1,0 +1,16 @@
+title,titleSlug,difficulty,url,topicTags
+Lexicographically Smallest Palindrome,lexicographically-smallest-palindrome,Easy,https://leetcode.com/problems/lexicographically-smallest-palindrome/description/,"two-pointers, greedy, string"
+Delete Columns to Make Sorted,delete-columns-to-make-sorted,Easy,https://leetcode.com/problems/delete-columns-to-make-sorted/description/,"array, string"
+Assign Cookies,assign-cookies,Easy,https://leetcode.com/problems/assign-cookies/description/,"two-pointers, array, greedy, sorting"
+Maximum Value of an Ordered Triplet I,maximum-value-of-an-ordered-triplet-i,Easy,https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description/,array
+Mean of Array After Removing Some Elements,mean-of-array-after-removing-some-elements,Easy,https://leetcode.com/problems/mean-of-array-after-removing-some-elements/description/,"array, sorting"
+House Robber,house-robber,Medium,https://leetcode.com/problems/house-robber/description/,"array, dynamic-programming"
+Subarray Product Less Than K,subarray-product-less-than-k,Medium,https://leetcode.com/problems/subarray-product-less-than-k/description/,"array, sliding-window"
+Maximize Greatness of an Array,maximize-greatness-of-an-array,Medium,https://leetcode.com/problems/maximize-greatness-of-an-array/description/,"two-pointers, array, greedy, sorting"
+Closest Dessert Cost,closest-dessert-cost,Medium,https://leetcode.com/problems/closest-dessert-cost/description/,"array, dynamic-programming, backtracking"
+Number of Wonderful Substrings,number-of-wonderful-substrings,Medium,https://leetcode.com/problems/number-of-wonderful-substrings/description/,"prefix-sum, string, bit-manipulation, hash-table"
+Design Graph With Shortest Path Calculator,design-graph-with-shortest-path-calculator,Hard,https://leetcode.com/problems/design-graph-with-shortest-path-calculator/description/,"shortest-path, heap-priority-queue, design, graph"
+Maximum Sum BST in Binary Tree,maximum-sum-bst-in-binary-tree,Hard,https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/,"dynamic-programming, binary-tree, tree, depth-first-search, binary-search-tree"
+Remove Boxes,remove-boxes,Hard,https://leetcode.com/problems/remove-boxes/description/,"array, dynamic-programming, memoization"
+Paths in Matrix Whose Sum Is Divisible by K,paths-in-matrix-whose-sum-is-divisible-by-k,Hard,https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/description/,"array, matrix, dynamic-programming"
+Find in Mountain Array,find-in-mountain-array,Hard,https://leetcode.com/problems/find-in-mountain-array/description/,"array, interactive, binary-search"

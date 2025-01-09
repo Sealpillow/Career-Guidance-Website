@@ -1,0 +1,190 @@
+[
+  {
+    "company_name": "SysMind",
+    "job_title": "Salesforce Vlocity Developer",
+    "location": "Jersey City, NJ",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3169712432/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "Salesforce Vlocity experience",
+      "Copado",
+      "SF administration",
+      "Jenkins",
+      "Bitbucket",
+      "Jira",
+      "GitHub",
+      "Visual Studio",
+      "Postman",
+      "SOAP UI"
+    ],
+    "job_id": "3169712432",
+    "confidence_score": "0.8606"
+  },
+  {
+    "company_name": "Siri InfoSolutions Inc",
+    "job_title": "Webmethods Developer",
+    "location": "Cleveland, OH",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3863028624/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "WebMethods development",
+      "SoftwareAG Integration Server",
+      "Designer",
+      "Universal Messaging",
+      "MWS",
+      "TN",
+      "RDBMS",
+      "Oracle",
+      "SQL Server",
+      "SoapUI"
+    ],
+    "job_id": "3863028624",
+    "confidence_score": "0.8427"
+  },
+  {
+    "company_name": "NInfo Systems INC",
+    "job_title": "Java full Stack Engineer",
+    "location": "Phoenix, AZ",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3857386463/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Core Java",
+      "J2EE",
+      "Backend Coding",
+      "Reactive Programming",
+      "Kafka",
+      "Message Queues",
+      "Strong Communication"
+    ],
+    "job_id": "3857386463",
+    "confidence_score": "0.8361"
+  },
+  {
+    "company_name": "Ideando Inc",
+    "job_title": "Full Stack Engineer",
+    "location": "United States",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/2234533717/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "excellent problem-solving skills",
+      "attention to detail",
+      "ability to work independently or as part of a team",
+      "strong communication and collaboration skills"
+    ],
+    "job_id": "2234533717",
+    "confidence_score": "0.8346"
+  },
+  {
+    "company_name": "HireBus",
+    "job_title": "Principal Backend Engineer",
+    "location": "United States",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3728459637/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "I've included a mix of soft skills (e.g. visionary",
+      "technical leadership",
+      "problem-solving) and hard skills (e.g. programming languages",
+      "technologies) as per your request."
+    ],
+    "job_id": "3728459637",
+    "confidence_score": "0.8326"
+  },
+  {
+    "company_name": "VDart",
+    "job_title": "Tableau Developer",
+    "location": "Parsippany, NJ",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3884434020/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "Tableau",
+      "Tableau Dashboards",
+      "Finance",
+      "Data Analysis",
+      "Data Visualization",
+      "SQL",
+      "Data Modeling",
+      "Communication",
+      "Problem-Solving",
+      "Analytical Skills"
+    ],
+    "job_id": "3884434020",
+    "confidence_score": "0.8161"
+  },
+  {
+    "company_name": "Compunnel Inc.",
+    "job_title": "M365 Power-Platform or SharePoint Online Developer",
+    "location": "Boston, MA",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3881984061/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "Agile methodology",
+      "software development life cycle",
+      "Power Platform",
+      "SharePoint Online",
+      "Power Apps",
+      "Power Automate",
+      "Power BI",
+      "JavaScript",
+      "HTML",
+      "JSON"
+    ],
+    "job_id": "3881984061",
+    "confidence_score": "0.8020"
+  },
+  {
+    "company_name": "TekisHub Consulting Services ",
+    "job_title": "backend Java developer",
+    "location": "Austin, TX",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3795134838/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "Java",
+      "J2EE",
+      "Java Collection",
+      "Concurrency APIs",
+      "Functional Programming",
+      "Data-Structures",
+      "Algorithms",
+      "REST APIs",
+      "Spring Framework",
+      "Problem Solving"
+    ],
+    "job_id": "3795134838",
+    "confidence_score": "0.7894"
+  },
+  {
+    "company_name": "Redifcard Technologies LLC",
+    "job_title": "Cloud / .NET Developer",
+    "location": "Bloomington, MN",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3844032378/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "Azure",
+      ".NET/C#",
+      "Snowflake",
+      "Kafka",
+      "Biztalk",
+      "HL7",
+      "Healthcare",
+      "Cloud",
+      "Backend",
+      "Recent Experience"
+    ],
+    "job_id": "3844032378",
+    "confidence_score": "0.7271"
+  },
+  {
+    "company_name": "NLB Services",
+    "job_title": "Machine Learning Engineer",
+    "location": "Dallas, TX",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3871631334/?trk=jobs_biz_prem_srch",
+    "skills_required": [
+      "Python",
+      "Streamlit",
+      "FastAPI",
+      "TensorFlow",
+      "PyTorch",
+      "NLTK",
+      "Spacy",
+      "BERT",
+      "SBERT",
+      "MILVUS"
+    ],
+    "job_id": "3871631334",
+    "confidence_score": "0.5948"
+  }
+]

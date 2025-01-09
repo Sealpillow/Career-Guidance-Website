@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'jobMatching' %}
+
+{% block title %}
+    Behavioral Practice - NTUCCDS
+{% endblock %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='behavioural.css') }}">
+{% endblock %} <!-- Additional styles block -->
+
+{% block scripts %}
+    <script src="{{ url_for('static',filename='js/behavioural.js')}}" defer></script>
+{% endblock %} <!-- Additional scripts block -->
+
+{% block content %}
+    <!-- Back Button -->
+    <form action="/backToJobMatch" method="post">
+        <button id="back-button">Back</button>
+    </form>
+    
+    <!-- Back END -->
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            {% for message in chat_history %}
+                <div class="user-message"><strong>You: </strong>{{ message.user }}</div>
+                <div class="message bot"><strong>Bot: </strong>{{ message.bot }}</div>
+            {% endfor %}
+        </div>
+        <div class="input-container">
+            <form method="POST" action="/chat">
+                <textarea name="message" placeholder="Type your message..." required rows="4" cols="101", style="resize: none;"></textarea>
+                <input type="hidden" name="status" value="inprogress">
+                <button type="submit">Send</button>
+                <p id="grade-description", style="text-align: center; margin-top: 10px">Type in 'grade' to grade your interview session.</p>
+            </form>
+        </div>
+    </div>
+{% endblock %}

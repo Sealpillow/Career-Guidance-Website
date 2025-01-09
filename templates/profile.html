@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'profile' %}
+
+{% block title %}
+    Profile Setup - NTUCCDS
+{% endblock %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='resume_generate.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='popUp.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='profile.css')}}">
+{% endblock %} <!-- Additional styles block -->
+
+{% block scripts %}
+    <script src="{{ url_for('static',filename='js/popUp_Script.js')}}" defer></script>
+{% endblock %} <!-- Additional styles block -->
+
+{% block content %}
+    <div class="profile-container">
+
+        <div class="profile-card">
+            <h2 class="profile-name">{{username}}</h2>
+            <p class="profile-text">Email: {{email}}</p>
+            <p class="profile-text">Name: {{name}}</p>
+            <p class="profile-text">Age: {{age}}</p>
+            <p class="profile-text">Contact: {{contact}}</p>
+            
+            <form action="/updateProfile" method="get">
+                <button>Update Profile</button>
+            </form>
+        </div>
+    
+    
+        <div class="resume-container">
+            <div class="resume-preview">
+                <h3>Uploaded Resume Preview</h3>
+                {% if filename %}
+                    <iframe src="{{ url_for('upload_file', filename=filename) }}" width="100%" height="600px" style="border: none;" onerror="this.onerror=null; this.src='path/to/error-page.html';"></iframe>
+                {% else %}
+                    <p>No resume available for preview.</p>
+                {% endif %}
+            </div>
+               
+            <form id="uploadForm" method="post" action="/uploadResume"  enctype="multipart/form-data">
+                <input type="file" name="file" accept="application/pdf" required>
+                <button type="button" onclick="showPopUp('popUp_Upload')">Upload</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!----------------------------------------------- All POP UP-------------------------------------------- -->
+    {% if popUpMessage %}
+        <!-- standard popUp Model -->
+        <div style="display: flex;" class="popUp-background" id="popUpMessage">
+            <div class="popUp-box">
+                <p id="popUp_Message">{{ popUpMessage }}</p>
+                <button class="popUp-button cancel-button" onclick="closeModal('popUpMessage')">OK</button>
+            </div>
+        </div>
+    {% endif %}
+
+    <div class="popUp-background" form_id="uploadForm" id="popUp_Upload">
+        <div class="popUp-box">
+            <p id="popUp_Message">Are you sure you want to upload this file?</p>
+            <button class="popUp-button confirm-button" onclick="confirmUpload('popUp_Upload')">Confirm</button>
+            <button class="popUp-button cancel-button" onclick="closeModal('popUp_Upload')">Cancel</button>
+        </div>
+    </div>
+    
+    <!------------------------------------------------------------------------------------------------------- -->
+
+{% endblock %}

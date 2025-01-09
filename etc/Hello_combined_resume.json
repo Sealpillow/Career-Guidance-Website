@@ -1,0 +1,76 @@
+{
+    "contact": "SIM Oi Liang | Mobile No.: +6594289106| Email: osim001@e.ntu.edu.sg | GitHub",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Bachelor of Engineering (Computer Science) - Expected graduation in April 2025 with a strong academic track record, currently holding a CGPA of 4.45/5.00 and expected Second Class Honors",
+                    "Coursework in Data Structures, Algorithms, Computer Systems, and Database Systems have provided a solid foundation in software development and data management principles",
+                    "Currently working on a project to design and implement a data processing pipeline using Talend, Apache Spark, and Python, utilizing skills that align with the requirements of the Data Engineer role"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "Database Project Design",
+                "details": [
+                    "Designed a scalable and efficient SQL database for Bookstores using entity-relationship modeling techniques, ensuring data integrity and quality.",
+                    "Developed optimized SQL queries to retrieve accurate data from the database, utilizing my strong proficiency in SQL.",
+                    "Utilized Microsoft SQL Server, demonstrating my hands-on experience with relational databases."
+                ]
+            },
+            {
+                "project_title": "Android Car Parking Application",
+                "details": [
+                    "Collaborated with stakeholders to understand requirements and designed a user-friendly Android application using React Native and Android Studio.",
+                    "Integrated a robust backend database using Firebase APIs to fetch data for frontend displays, showcasing my expertise in data-driven applications.",
+                    "Conducted black box testing on the Android application, ensuring its quality and functionality."
+                ]
+            },
+            {
+                "project_title": "Movie Tickets Booking System",
+                "details": [
+                    "Designed a scalable and maintainable system architecture using Object Oriented Programming Principles and design patterns such as Layered Architecture and Inheritance principle.",
+                    "Utilized Java to develop reusable and extensible code for the system, demonstrating my proficiency in programming languages."
+                ]
+            },
+            {
+                "project_title": "Anime Popularity Prediction",
+                "details": [
+                    "Developed an Artificial Intelligent model using neural networks and data pre-processing strategies to estimate anime popularity ratings.",
+                    "Designed a data-driven approach to predict trends and patterns, showcasing my expertise in data analysis and machine learning."
+                ]
+            }
+        ]
+    },
+    "experience": null,
+    "co_curricular": null,
+    "skills": {
+        "skills": {
+            "languages": [
+                "English: Proficient",
+                "Chinese: Proficient",
+                "Malay: Conversant"
+            ],
+            "programming_languages": [
+                "Python",
+                "SQL"
+            ],
+            "frameworks_libraries": [
+                "Talend",
+                "Apache Spark",
+                "NumPy",
+                "Pandas"
+            ],
+            "technologies": [
+                "Visual Studio Code",
+                "Jupyter Notebook"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

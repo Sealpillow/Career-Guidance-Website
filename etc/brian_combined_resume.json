@@ -1,0 +1,96 @@
+{
+    "contact": "Brendon Tan | Mobile No.: (+65) 9662 5038 | Email: brendontan003@gmail.com",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Pursuing a Bachelor of Engineering in Computer Science (Aug 2021 - Dec 2024)",
+                    "Expected to graduate with Honours (Distinction) and a CGPA of 4.32/5.00",
+                    "Developing skills in software development, data structures, algorithms, and computer systems"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "Cloud Computing Project",
+                "details": [
+                    "Developed a high-performing AI chatbot using React Native to handle FAQs about NTU, achieving a response accuracy of 90%",
+                    "Utilized cloud-based technologies such as OpenAI's embedding model, Google Cloud's Vertex AI and ChromaDB to reduce operational costs by 95% and enhance response accuracy",
+                    "Designed a scalable and maintainable architecture, leveraging asynchronous reactive programming and API calls to ensure a seamless user experience"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "experience": [
+            {
+                "position_title": "Software Developer Intern",
+                "company": "DBS Bank Ltd",
+                "details": [
+                    "Designed and developed a translation tool that leveraged artificial intelligence (AI) capabilities, resulting in a 40% increase in productivity.",
+                    "Utilized React and Ant Design UI library for front-end development, including code refactoring and updating of deprecated content.",
+                    "Wrote extensive test cases using React Testing Library and performed regression testing and User Acceptance Testing (UAT)."
+                ]
+            },
+            {
+                "position_title": "Full Stack Software Developer Intern",
+                "company": "FoodLine.sg Pte Ltd",
+                "details": [
+                    "Developed a full-stack web application using PHP and JavaScript for server-side scripting, ensuring responsive backend functionalities.",
+                    "Integrated Zoho CRM into the application, streamlining customer-facing processes and enhancing lead management.",
+                    "Designed and implemented meticulous database schemas in MySQL, employing security techniques such as prepared statements and data sanitisation."
+                ]
+            },
+            {
+                "position_title": "Software Engineer Intern",
+                "company": "Undercurrent Capital Pte Ltd",
+                "details": [
+                    "Implemented front-end interfaces for Decentralised Applications (DApps) using React and Tailwind CSS, ensuring a seamless and user-friendly experience.",
+                    "Wrote and deployed highly efficient and secure smart contracts using Pyteal and JavaScript for various DApps features.",
+                    "Conducted comprehensive testing using Mocha Testing Framework to ensure successful deployment."
+                ]
+            }
+        ]
+    },
+    "co_curricular": {
+        "co_curricular_activities": [
+            {
+                "activity_name": "Freshmen Orientation Programme",
+                "details": [
+                    "Served as a Programmes Committee Member from Jan 2022 to Aug 2022, leveraging strong organizational skills to manage a budget of over $1000 for the orientation programme",
+                    "Designed and executed engaging camp activities and games for 250 freshmen, fostering a sense of community and interaction through effective problem-solving and communication",
+                    "Demonstrated adaptability and teamwork by collaborating with cross-functional teams to deliver a successful event, mirroring the collaborative environment desired in the senior developer role"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "skills": {
+            "languages": [
+                "English (fluent)"
+            ],
+            "programming_languages": [
+                "JavaScript (proficient)"
+            ],
+            "frameworks_libraries": [
+                "React Native (proficient)",
+                "React (proficient)",
+                "Redux (experienced)",
+                "Flexbox",
+                "Styled-Components"
+            ],
+            "technologies": [
+                "CI/CD Pipelines",
+                "Micro Front-end Patterns",
+                "Jest",
+                "Detox",
+                "UX & Accessibility Best Practices"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

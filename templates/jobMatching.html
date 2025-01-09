@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'jobMatching' %}
+
+{% block title %}
+    Job Matching - CCDS
+{% endblock %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='job_listing.css')}}">
+{% endblock %} <!-- Additional styles block -->
+
+{% block scripts %}
+    <script src="{{ url_for('static',filename='js/script.js')}}" defer></script>
+{% endblock %} <!-- Additional scripts block -->
+
+{% block content %}
+    <div class="container-main">
+        {% if user_skills %}
+            <h2>Job match based on your Skills:</h2>
+            <p style="margin-top: 5px;">{{ user_skills }}</p>
+        {% else %}
+            <h2>Job Postings:</h2>
+        {% endif %}
+
+        {% if resume_exist %}
+
+            <div>
+                <form style = "margin-top: 20px;" class ="container-export" action="/jobMatching" method="POST">
+                    <label style = "font-weight: bold;" for="dropdown">Choose an option:</label>
+                    <select style= "font-weight: bold; width: 200px;"id="dropdown" name="dropdown">
+                        {% for option in options %}
+                            <option value="{{ option.value }}" {% if session['dropdown'] == option.value %}selected{% endif %}>{{ option.label }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+                <div class ="container-export">
+                    {% if csvFilename %}
+                        <form action="{{ url_for('download_file', filename=csvFilename) }}" method="get">
+                            <button type="submit">Export CSV</button>
+                        </form>
+                    {% endif %}
+                    {% if jsonFilename %}
+                        <form action="{{ url_for('download_file', filename=jsonFilename) }}" method="get">
+                            <button type="submit">Export JSON</button>
+                        </form>
+                    {% endif %}
+                </div>
+            </div>
+            {% if jobs %}
+
+                <div class="job-list" id="job-list">
+                    <ul id="jobs"></ul>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Company Name</th>
+                                <th>Job Title</th>
+                                <th>Location</th>
+                                <th>Skills Required</th>
+                                <th>Job ID</th>
+                                <th>Confidence Score</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for job in jobs %}
+                                <tr>
+                                    <td>{{ job.company_name }}</td>
+                                    <td>{{ job.job_title }}</td>
+                                    <td>{{ job.location }}</td>
+                                    <td>
+                                        <ul>
+                                            {% for skill in job.skills_required %}
+                                                <li>{{ skill }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </td>
+                                    <td>{{ job.job_id }}</td>
+                                    <td>{{ job.confidence_score }}</td>
+                                    <td> 
+                                        <div class ="td-special">
+                                            <a href="{{ job.job_posting_url }}" target="_blank">View Job</a>
+                                            <form action="{{ url_for('generateLeetCode', jobTitle=job.job_title) }}" method="get">
+                                                <button type="submit">LeetCode</button>
+                                            </form>
+                                            <form action="{{ url_for('startChat', jobTitle=job.job_title) }}" method="get">
+                                                <button type="submit">Interview</button>
+                                            </form>
+                                            <form action="{{ url_for('improveResume') }}" method="post">
+                                                <input type="hidden" name = 'job_description' value ="{{ job.description }}">
+                                                <button type="submit">Resume</button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+        {% else %}
+            <p>No Resume Uploaded, Navigate to Resume Panel to upload one.</p>
+        {% endif %}
+
+    </div>
+{% endblock %}

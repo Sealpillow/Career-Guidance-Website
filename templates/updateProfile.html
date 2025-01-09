@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'profile' %}
+
+{% block title %}
+Profile Setup - NTUCCDS
+{% endblock %}
+
+{% block content %}
+    <h2>Profile Setup</h2>
+    <form action="/updateProfile" method="post">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="age" placeholder="Age" required>
+        <input type="text" name="contact" placeholder="Contact No." required>
+        <button type="submit">Save Profile</button>
+    </form>
+
+{% endblock %}

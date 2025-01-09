@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'resume' %}
+
+{% block title %}
+    Resume Generation - NTUCCDS
+{% endblock %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='resume_generate.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='popUp.css')}}">
+{% endblock %} <!-- Additional styles block -->
+
+{% block scripts %}
+    <script src="{{ url_for('static',filename='js/popUp_Script.js')}}" defer></script>
+{% endblock %} <!-- Additional styles block -->
+
+{% block content %}
+    <!-- Back Button -->
+    <form action="/backToJobMatch" method="post">
+        <button id="back-button">Back</button>
+    </form>
+
+    <!-- Back END -->
+
+    <div class="container-main">
+        <div class="resume-preview">
+            <h3>Improved Resume Preview</h3>
+            {% if filename %}
+                <iframe src="{{ url_for('download_file', filename=filename) }}" width="100%" height="600px" style="border: none;" onerror="this.onerror=null; this.src='path/to/error-page.html';"></iframe>
+            {% else %}
+                <p>No resume available for preview.</p>
+            {% endif %}
+        </div>
+           
+        <div class="button-container">
+            <form action="{{ url_for('download_file', filename=filename) }}" method="get">
+                <button id="downloadPDF-button" type="submit">Download Resume</button>
+            </form>
+
+            <form id="uploadForm" method="post" action="/uploadResume"  enctype="multipart/form-data">
+                <button type="button" onclick="showPopUp('popUp_Upload')">Upload to Profile</button>
+            </form>
+            
+        </div>
+
+        <!----------------------------------------------- All POP UP-------------------------------------------- -->
+        {% if popUpMessage %}
+            <!-- standard popUp Model -->
+            <div style="display: flex;" class="popUp-background" id="popUpMessage">
+                <div class="popUp-box">
+                    <p id="popUp_Message">{{ popUpMessage }}</p>
+                    <button class="popUp-button cancel-button" onclick="closeModal('popUpMessage')">OK</button>
+                </div>
+            </div>
+        {% endif %}
+
+        <div class="popUp-background" form_id="uploadForm" id="popUp_Upload">
+            <div class="popUp-box">
+                <p id="popUp_Message">Are you sure you want to upload this file?</p>
+                <button class="popUp-button confirm-button" onclick="confirmUpload('popUp_Upload')">Confirm</button>
+                <button class="popUp-button cancel-button" onclick="closeModal('popUp_Upload')">Cancel</button>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------- -->
+    </div>
+
+{% endblock %}

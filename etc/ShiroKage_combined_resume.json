@@ -1,0 +1,65 @@
+{
+    "contact": "SIM Oi Liang | Mobile No.: +6594289106| Email: osim001@e.ntu.edu.sg | GitHub",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Bachelor of Engineering (Computer Science)",
+                    "Expected graduation in April 2025 with honors",
+                    "Currently maintaining a high academic standard of 4.45/5.00 CGPA"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "Data Science and Artificial Intelligent Project: Anime Popularity Prediction",
+                "details": [
+                    "Designed an Artificial Intelligent model to estimate anime popularity rating using neural network and data pre-processing strategies.",
+                    "Applied predictive analytics techniques to empower producers to make data-driven decisions when releasing anime, demonstrating expertise in data science and AI principles.",
+                    "Utilized relevant programming languages and tools, showcasing proficiency in data processing, extraction, and analysis."
+                ]
+            },
+            {
+                "project_title": "Database Project Design for Bookstores",
+                "details": [
+                    "Designed a scalable and maintainable SQL database for a bookstore, ensuring data quality and integrity through entity-relationship modeling in Microsoft SQL Server.",
+                    "Defined efficient SQL queries to retrieve accurate data, highlighting expertise in database design, data modeling, and query optimization.",
+                    "Demonstrated understanding of data analysis and manipulation, utilizing SQL to extract insights from the database."
+                ]
+            }
+        ]
+    },
+    "experience": null,
+    "co_curricular": null,
+    "skills": {
+        "skills": {
+            "languages": [
+                "English: Proficient",
+                "Chinese: Proficient",
+                "Malay: Conversant"
+            ],
+            "programming_languages": [
+                "Python",
+                "SQL"
+            ],
+            "frameworks_libraries": [
+                "Talend",
+                "Apache Spark",
+                "NumPy",
+                "Pandas"
+            ],
+            "technologies": [
+                "Microsoft Office",
+                "Visual Studio Code",
+                "Visual Studio",
+                "Eclipse IDE",
+                "Jupyter Notebook"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

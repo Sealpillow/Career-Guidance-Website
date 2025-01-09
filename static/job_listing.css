@@ -1,0 +1,115 @@
+/* Main Container */
+.container-main {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column (top to bottom) */
+}
+
+/* Main Container */
+.container-export {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+}
+
+/* Slider Container */
+.slider-container {
+    margin-bottom: 20px;
+}
+
+/* Slider Styles */
+input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none; /* Remove default styles */
+    background: #007bff; /* Primary color */
+    height: 5px; /* Height of the slider */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styles */
+    appearance: none; /* Remove default styles */
+    width: 20px; /* Width of the thumb */
+    height: 20px; /* Height of the thumb */
+    border-radius: 50%; /* Round thumb */
+    background: #fff; /* White thumb */
+    border: 2px solid #007bff; /* Border color */
+}
+
+/* Button Container Styles */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Ensures buttons are even */
+    margin: 10px;              /* Adds margin outside the button */
+    border: 2px solid #000000; /* 2px solid border with a green color */
+}
+
+form {
+    width: 100%;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Job List Styles */
+.job-list {
+    background-color: #f8f9fa; /* Light grey for job list */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6; /* Border color */
+}
+
+.job-list ul {
+    list-style-type: none;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+table {
+    width: 100%;               /* Full width */
+    border-collapse: collapse;  /* Ensures borders are shared between cells */
+}
+
+/* Table, header, and cell borders */
+table, th, td {
+    border: 1px solid black;    /* Add border to table, headers, and cells */
+}
+
+/* Header cell styles */
+th {
+    background-color: #f2f2f2;  /* Light grey background for header */
+    padding: 10px;              /* Padding inside header cells */
+    text-align: left;           /* Align text to the left */
+}
+
+/* Table cell styles */
+td {
+    padding: 10px;              /* Padding inside table cells */
+    padding-right: 10px;
+}
+
+.td-special {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

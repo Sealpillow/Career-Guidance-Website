@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% set show_sidebar = False %}
+{% set current_page = 'login' %}
+
+{% block title %}
+    Login - CCDS
+{% endblock %}
+
+{% block content %}
+    <div class="container-ls">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p style="margin-top: 10px;" class="body">Not a member? <a href="signup">Sign Up</a></p>
+        {% if error_message%}
+        <p style="color:red">{{error_message}}</p>
+        {% endif %}
+    </div>
+{% endblock %}

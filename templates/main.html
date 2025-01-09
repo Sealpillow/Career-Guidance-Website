@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'main' %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='main.css')}}">
+{% endblock %} <!-- Additional styles block -->
+
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block content %}
+    <!-- Main Containder: flex col-->
+    <div class= "landing-container">
+        <!-- Charts: flex row-->
+        <div class="chart">
+            <h1 class="chart-title">Top 5 Company</h1>
+            <img class= "images" src="{{ url_for('static', filename='images/Top5Company.jpg') }}" alt="">
+        </div>
+
+        <div class="chart">
+            <h1 class="chart-title">Top 5 Job Title</h1>
+            <img class= "images" src="{{ url_for('static', filename='images/Top5JobTitle.jpg') }}" alt="">
+        </div>
+        <h1 class="NewsFeed-title" style="text-align: center">News Feed</h1>
+        <!-- Ads: flex row-->
+        <div class="ads-container">
+            
+            <div class="ad">
+                <img class= "images" src="{{ url_for('static', filename='images/RecruitmentDrive1.jpg') }}" alt="">
+            </div>
+
+            <div class="ad">
+                <img class= "images" src="{{ url_for('static', filename='images/RecruitmentDrive2.jpg') }}" alt="">
+            </div>
+
+            <div class="ad">
+                <img class= "images" src="{{ url_for('static', filename='images/RecruitmentDrive3.jpg') }}" alt="">
+            </div>
+        </div>
+    </div>
+{% endblock %}

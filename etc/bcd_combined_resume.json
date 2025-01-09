@@ -1,0 +1,82 @@
+{
+    "contact": "SIM Oi Liang | Mobile No.: +6594289106| Email: osim001@e.ntu.edu.sg | GitHub",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Pursuing a Bachelor of Engineering (Computer Science), with expected graduation in April 2025.",
+                    "Consistently maintaining a high academic performance, with a current CGPA of 4.45/5.00 and expected Second Class Honors."
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "Database Project Design",
+                "details": [
+                    "Designed and constructed a scalable SQL database for a bookstore management system, utilizing entity-relationship models in Microsoft SQL Server",
+                    "Crafted optimal SQL queries to retrieve accurate data, ensuring high data integrity and performance"
+                ]
+            },
+            {
+                "project_title": "Android Car Parking Application",
+                "details": [
+                    "Developed user-friendly interfaces using React Native and Android Studio, leveraging Firebase APIs for seamless backend integration",
+                    "Conducted rigorous black box testing of the Android application, ensuring high-quality user experience"
+                ]
+            },
+            {
+                "project_title": "Movie Tickets Booking System",
+                "details": [
+                    "Applying Object-Oriented Programming principles and design patterns, designed a modular, extensible, and maintainable system architecture using Java",
+                    "Enabled efficient management and booking of movie tickets with a highly responsive and scalable system"
+                ]
+            },
+            {
+                "project_title": "Anime Popularity Prediction",
+                "details": [
+                    "Developed an Artificial Intelligence model using neural networks and data preprocessing techniques to estimate anime popularity ratings",
+                    "Utilized data-driven insights to provide producers with data-backed recommendations for releasing anime"
+                ]
+            }
+        ]
+    },
+    "experience": null,
+    "co_curricular": null,
+    "skills": {
+        "skills": {
+            "languages": [
+                "English - Proficient",
+                "Chinese - Proficient",
+                "Malay - Conversant"
+            ],
+            "programming_languages": [
+                "Java",
+                "JavaScript",
+                "C++",
+                "C",
+                "C#",
+                "Python",
+                "SQL"
+            ],
+            "frameworks_libraries": [
+                "React Native",
+                "TensorFlow",
+                "Keras",
+                "NumPy",
+                "Pandas"
+            ],
+            "technologies": [
+                "Microsoft Office",
+                "Visual Studio Code",
+                "Visual Studio",
+                "Eclipse IDE",
+                "Jupyter Notebook"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

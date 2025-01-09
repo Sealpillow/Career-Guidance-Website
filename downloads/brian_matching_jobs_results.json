@@ -1,0 +1,211 @@
+[
+  {
+    "company_name": "Avesta Computer Services",
+    "job_title": "Senior Developer – React Native",
+    "location": "Austin, Texas Metropolitan Area",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3884431576/?trk=jobs_biz_prem_srch",
+    "description": "job title: senior developer – react nativelocation: austin, texastype: fulltimecontract to hire option available for this roletechnical skills:5 + years of professional experience developing mobile applications with react native for b2cstrong understanding of javascript (es6+) & react fundamentals.proficiency in react native core concepts like components, props, state, & lifecycle methods.experience with asynchronous reactive programming & api calls.experience with integrating third-party libraries & apis into react native applications.experience with styling libraries like flexbox or styled-components.experience with redux or equivalent state management solution.working knowledge of native development concepts for ios & android would be a huge advantage.exposure to user experience related conceptsexcellent problem-solving & debugging skills.strong communication & collaboration skillsrole & responsibilities:design, develop, & maintain high-quality, performant react native applications.collaborate with designers & back-end developers to translate ui/ux mockups & prototypes into functional mobile app experiences.write clean, maintainable, & reusable javascript code.effectively utilize react native features & libraries to build native-like mobile apps.diagnose & troubleshoot bugs to ensure a smooth user experience.write unit & integration tests to ensure code quality.desired skills:experience with ci/cd pipelinesexposure to micro front end patternsexperience with testing frameworks like jest or detox.experience with ux & accessibility best practices. information technology",
+    "skills_required": [
+      "JavaScript",
+      "React",
+      "React Native",
+      "Asynchronous Programming",
+      "API Calls",
+      "State Management",
+      "Redux",
+      "Native Development",
+      "UX",
+      "Problem-Solving"
+    ],
+    "job_id": "3884431576",
+    "confidence_score": "1.0413"
+  },
+  {
+    "company_name": "Infotech Spectrum Inc,",
+    "job_title": "SRE/DevOps Support Engineer (W2)",
+    "location": "Chicago, IL",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3884431437/?trk=jobs_biz_prem_srch",
+    "description": "position: sre- devops support role location: chicago, il (hybrid – 3 days onsite, i.e., mtw)\r\nnote:job summary:application support candidate. less devopsmonitoring tools- appdynamics, dynatrace, datadog, grafanageneos exp is preferred.intermediate sql knowledge/experiencescripting- bash/shell\r\njob description:proficient in devops engineering skills as well as multiple design techniquesworking proficiency in devops engineering development toolset to design, develop, test, deploy, maintain & improve softwarestrong understanding of agile methodologies with ability to work in at least one of the common frameworksstrong understanding of techniques such as continuous integration, continuous delivery, test driven development, cloud development, application resiliency & securityproficiency in one or more general purpose programming languagesworking proficiency in a portion of software engineering disciplines & demonstrates understanding of overall software skills including business analysis, development, testing, deployment, maintenance, & improvement of software. required skills (technical expertise of 4+ years the below areas, overall it experience of 6+ years):proficiency in java / jvm based system design & implementationinfrastructure knowledge required including unix, windows, networking, & scripting (e.g., perl / python)experience with orchestration tools like jenkins ci/cd, or julesexperience following source control best practices: git/bitbucketexperience with database development (mysql / oracle)understanding of architecture & design across distributed systems engineering, information technology",
+    "skills_required": [
+      "DevOps",
+      "Agile",
+      "Java",
+      "JVM",
+      "Unix",
+      "Windows",
+      "Networking",
+      "Scripting",
+      "Git",
+      "Bitbucket"
+    ],
+    "job_id": "3884431437",
+    "confidence_score": "0.9090"
+  },
+  {
+    "company_name": "Compunnel Inc.",
+    "job_title": "M365 Power-Platform or SharePoint Online Developer",
+    "location": "Boston, MA",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3881984061/?trk=jobs_biz_prem_srch",
+    "description": "title m365 power-platform/sharepoint online developerduration 6-12 monthslocation: boston, ma job requirements:· six (6) plus years of solid hands-on development experience working within microsoft 365 sharepoint online platform as well as sharepoint on-premises servers (2013, 2019) & cloud development platforms including power platform.· minimum three (3) years of solid hands-on experience in application development paradigm in the power platform (canvas, portals, model-driven, dataverse) with data integration in platforms like sharepoint online, salesforce, servicenow, adobe esign, formstack etc.· in-depth understanding of the microsoft power platform (power apps, power automate, power bi) integration with sharepoint online, dataverse & other third-party platforms using connectors/apis.· experienced working with agile methodology. should be a self-starter who can quickly acclimate to a dynamic & fast paced development environment.· experienced developing enterprise-wide solutions that span across integration of microsoft 365 services (e.g., sharepoint, power platform, entra id, teams, graph api, onedrive, ms forms etc.) in government (gcc) tenant.· should possess full understanding of software development life cycle using both agile & waterfall methodologies.· candidate should possess extensive hands-on knowledge of power platform/sharepoint online specific languages like powerfx, spfx & strong programming skills using other languages like javascript, html, json, powershell, .net/c#, asp.net.· robust hands-on experience in powershell scripting & pnp provisioning for sharepoint online & m365 services.· experienced with sharepoint’s application services framework including implementation & configuration of both on-premises & cloud hosted sites.· hands-on development experience with utilization of sharepoint components like sharepoint lists/libraries automation, custom spfx & modern/classic webparts, site templates, site themes, microsoft search, taxonomy, sharepoint search service, user profile service, & other service applications, rest apis, infopath forms.· robust power platform problem solving skills & ability to debug, troubleshoot & deploy existing power platform using pipelines & sharepoint applications.· migration knowledge of sharepoint content using tools like sharegate, microsoft migration tool is a plus.· ability to provide technical feedback/ideas in a clear & concise manner to business & it partners.· demonstrate great communication skills & be comfortable to handle business requirements & discovery processes. this role needs to present solutions/apps to senior management occasionally. \r\nresponsibilities:· participate in all aspects of software development lifecycle which includes requirement gathering, estimating, technical design, implementation, documentation, testing, deployment, & support of application developed for various business partners including rmv, highway, aeronautics, rail & transit, shared services etc.· demonstrate troubleshooting skills in customization of sharepoint modern/classic pages, custom lists/webparts using sharepoint designer or vs code tools.· this position will involve the developer to engage with business stakeholders to discover requirements, provide solutions proposals, as well as educate & assist business partners with selection of platform & technology for business needs.· collaborate with other members of the development & scrum team to release quality solutions as well as develop technical design documentations & runbooks of applications for end user support.· should possess clear knowledge of power platform environments, power platform sdlc process, & solutions deployment process from development to production environments using pipelines.· participate in supporting servicenow tickets related to power platform or m365 services as needed.· experience implementing security & development best practices using entra id & m365 services.· ability to multi-task different projects & support efforts, while effectively supporting competing priorities.· ability to prioritize & track progress on product backlog items/tasks & deliverables using azure dev ops, git or team foundation server for defined timelines & scope of work.· superior communication skills that require presentations & demo of applications with business partners & senior it team members. · be a team player & passionate to learn & adapt to new technological challenges & business demands. · self-motivated & organized with the ability to work with minimal supervision.  desired qualifications/certifications:· bachelor's degree in computer science, information systems, or related discipline.· m365 teamwork administrator associate or power platform fundamentals certified.· sharepoint online/on-premises applications development certified.· experience working with azure, infopath, ssrs, salesforce, sharepoint designer, servicenow a plus. engineering, information technology",
+    "skills_required": [
+      "Power Apps",
+      "Power Automate",
+      "Power BI",
+      "SharePoint Online",
+      "SharePoint On-Premises",
+      "Power Platform",
+      "Agile Methodology",
+      "PowerShell",
+      "JavaScript",
+      "HTML"
+    ],
+    "job_id": "3881984061",
+    "confidence_score": "1.0450"
+  },
+  {
+    "company_name": "iBrain Technologies, Inc",
+    "job_title": "Sr Software Engineer",
+    "location": "United States",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3879283271/?trk=jobs_biz_prem_srch",
+    "description": "company descriptionibrain technologies is an experienced it consulting & service delivery company headquartered in st louis mo. we partner with our clients who seek strategic talent & to assist those candidates looking for their next career opportunity. with over 17 years’ experience in the field, we approach each partnership with a commitment to our clients to identify the right fit & to deliver world class candidate experience throughout the recruiting lifecycle. we look forward to working with you.\r\nrole descriptionthis is a full-time remote role for a senior software engineer at ibrain technologies. as a senior software engineer, you will be responsible for back-end web development, software development, programming, & object-oriented programming (oop). you will work on developing & maintaining robust & scalable software solutions, collaborating with cross-functional teams, & implementing best practices in software engineering.\r\nqualificationsstrong background in computer science & software developmentstrong experience in back-end web development & programmingexperience in frontend neededproficiency in object-oriented programming (oop)knowledge of software development best practices & methodologiesexcellent problem-solving & analytical skillsability to work independently & in a teamexperience with agile development methodologies is a plusgood communication & interpersonal skillsability to work remotely & collaborate effectively with remote teamsbachelor's or master's degree in computer science or related field\r\nsudheer@ibrain-tech.com (+1 614 965 6876)  engineering, information technology",
+    "skills_required": [
+      "Computer Science",
+      "Object-Oriented Programming",
+      "Software Development",
+      "Back-End Web Development",
+      "Programming",
+      "Problem-Solving",
+      "Analytical Skills",
+      "Communication",
+      "Interpersonal Skills",
+      "Agile Development Methodologies"
+    ],
+    "job_id": "3879283271",
+    "confidence_score": "0.9666"
+  },
+  {
+    "company_name": "Siri InfoSolutions Inc",
+    "job_title": "Webmethods Developer",
+    "location": "Cleveland, OH",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3863028624/?trk=jobs_biz_prem_srch",
+    "description": "job title : webmethods developerlocation : cleveland, oh\r\ndetails :must have technical skillswebmethods development experience using softwareag integration server, designer, universal messaging, mws, tn.atleast 1 rdbms system (oracle or sql server).familiarity with soapui, kibana.ability to work with various non-technical / technical teams to understand & document integration specific requirements.create high level/ detailed design documents specific to webmethods portion of work.ability to present designs in technical meetings.good to have apigee/java/kafka knowledge is a plus.knowledge on wm integration with mainframe/salesforce/google cloud is a plus. engineering, information technology",
+    "skills_required": [
+      "Technical Skills",
+      "WebMethods",
+      "SoftwareAG Integration Server",
+      "Designer",
+      "Universal Messaging",
+      "MWS",
+      "TN",
+      "RDBMS",
+      "Oracle",
+      "SQL Server"
+    ],
+    "job_id": "3863028624",
+    "confidence_score": "1.0109"
+  },
+  {
+    "company_name": "Redifcard Technologies LLC",
+    "job_title": "Cloud / .NET Developer",
+    "location": "Bloomington, MN",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3844032378/?trk=jobs_biz_prem_srch",
+    "description": "position: cloud / .net developer location: 100% remoteduration: 3 months\r\nwork auth: us citizen or greencard only\r\n\r\nskills required: 1. azure (a lot of azure experience)2. (azure logic apps or azure service bus or azure data factory or azure event grid) must be recent3. .net/c#. must have good backend experience with 4. snowflake 5. kafka6. biztalk (must have recent experience from year 2020, 2021, 2022, 2023, or 2023)7. hl7  (must have recent experience)8. healthcare (must have recent experience)\r\n\r\n\r\nplease send your resumes to kalyan@redifcard.com  engineering, information technology",
+    "skills_required": [
+      "Azure",
+      ".NET/C#",
+      "Snowflake",
+      "Kafka",
+      "Biztalk",
+      "HL7",
+      "Healthcare",
+      "Backend",
+      "Recent experience"
+    ],
+    "job_id": "3844032378",
+    "confidence_score": "1.0242"
+  },
+  {
+    "company_name": "Prepto",
+    "job_title": "Frontend Engineer",
+    "location": "Santa Clara, CA",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3841963841/?trk=jobs_biz_prem_srch",
+    "description": "the ideal candidate will be responsible for developing several key features in the prepto's application. there is a lot of learning & fun in this experience.\r\nkey responsibilities:development with react & redux: develop & implement responsive ui components using react, redux, & javascript, adhering to best coding practices.collaboration & version control: work closely with cross-functional teams, ensuring seamless integration of frontend & backend services. utilize git for version control & collaboration.continuous learning: engage in continuous learning to enhance skills & apply software engineering design principles.\r\npreferred qualifications:technical proficiency: strong skills in react, redux, javascript, & familiarity with at least one programming language. knowledge of databases & git is essential.educational background: currently pursuing or completed an ms degree in computer science or a related field. a strong understanding of software engineering design principles is expected.design sensitivity: an eye for good design, with an understanding of user experience best practices.\r\nbenefits:comprehensive benefits: free lunch, snacks, & access to weekly happy hours & parties.professional development: opportunities for referrals to top tech companies like amazon, google, meta, snap, & uber for those interested in exploring further career opportunities.learning opportunities: weekly sessions with engineers from faang companies, providing valuable industry insights, tips, & a platform for q&a.\r\n*this internship emphasizes learning, growth, & building your resume with the help of mentors. we are a small team, so you will directly be working with industry veterans in software engineering. engineering, information technology",
+    "skills_required": [
+      "React",
+      "Redux",
+      "JavaScript",
+      "Git",
+      "Collaboration",
+      "Version Control",
+      "Continuous Learning",
+      "Software Engineering Design Principles",
+      "Design Sensitivity",
+      "User Experience Best Practices"
+    ],
+    "job_id": "3841963841",
+    "confidence_score": "1.0385"
+  },
+  {
+    "company_name": "TRG",
+    "job_title": "Software Engineer",
+    "location": "Westlake, OH",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3827945924/?trk=jobs_biz_prem_srch",
+    "description": "*this position is fully onsite & requires speaking fluent english as client communication is necessary. *software engineer 1, under the guidance of the manager of application development & senior software engineers, will develop code for both external & internal customer projects. they will adhere to established security & coding standards, participating in the implementation, testing, & deployment of projects. key responsibilities include coding tasks for mobile, desktop, & web applications, maintaining existing software systems, learning, & adopting new technologies, creating unit & regression tests, & contributing to code reviews.\r\nessential functions:utilize development tools such as vb.net, c#, .net core, mvc, git, asp.net, sql server, ssis, ssrs, html, css, json, rest api, javascript, jquery, bootstrap.code basic tasks in mobile, desktop, & web software applications.investigate, learn, & develop skills in new technologies.maintain existing software systems by identifying & correcting defects.create unit & regression tests.follow the team’s software development process & perform code reviews.communicate effectively with team members, senior engineers, business analysts, & non-team members.\r\ninitiative/independence:eager to learn & attend internal & external training sessions.demonstrate initiative by identifying & communicating problems & risks.recognize the risk of changes & tailor actions accordingly.\r\nqualifications:associate degree in computer science required.bachelor’s degree preferred.minimum of 1 year of .net framework/vb or c# development experience.self-starter comfortable working across all levels of an organization, especially external clients.ability to pass a background check.\r\nperformance requirements:maintain regular & reliable attendance.operate a computer & other position-related technologies.work & consult with colleagues, outside stakeholders, & individually.work flexible hours as needed.clearly & confidentially communicate with truwest employees & other stakeholders.adhere to all truwest values at all times.\r\nphysical requirements:remain in a stationary position 75% of the time.access work locations.stooping, standing, walking, bending, & staying upright to perform work.visually read written & digital information.receive detailed information through oral communication. engineering, information technology",
+    "skills_required": [
+      "Fluent English",
+      "coding",
+      "software development",
+      "C#",
+      ".NET",
+      "VB.NET",
+      "Git",
+      "SQL Server",
+      "problem-solving",
+      "communication"
+    ],
+    "job_id": "3827945924",
+    "confidence_score": "0.9869"
+  },
+  {
+    "company_name": "Insight Global",
+    "job_title": "Flight Software Engineer",
+    "location": "Webster, TX",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3803052628/?trk=jobs_biz_prem_srch",
+    "description": "must haves:10-15 years of experience with c++ design & development in an embedded software environmentexperience with full life cycle software development (research, gather requirements, write code, & test.)experience working with c++ on a linux osexperience with project work (aka designing from scratch, not just maintaining/upgrading) plusses:experience with spaceflight (manned or unmanned) or other safety critical systems like airplanes, helicopters, rockets, submarines, military tanks, or other vehicles.experience with microcontroller programming in csoftware design/development experience in a regulated environment (spacecraft, aerospace, high fidelity or other heavily regulated environments like healthcare.)bachelor’s degree in computer science, engineering, or a related field day to day:insight global is looking to hire a dynamic flight software engineer for a commercial space company located in webster, tx. this individual will mostly be responsible for designing, developing, & testing functional & dependable embedded flight software for one of the first commercial space stations. the flight software engineer will collaborate with hardware engineers on board-level firmware & with avionics engineers to integrate hardware simulation into real-time software (coding to make hardware move as it was intended). engineering",
+    "skills_required": [
+      "C++",
+      "Linux",
+      "Embedded software",
+      "Full life cycle software development",
+      "Research",
+      "Requirements gathering",
+      "Code writing",
+      "Testing",
+      "Microcontroller programming",
+      "Project management"
+    ],
+    "job_id": "3803052628",
+    "confidence_score": "1.0406"
+  },
+  {
+    "company_name": "SilverSpace Technologies Inc",
+    "job_title": "Data Engineer/ETL",
+    "location": "Hartford, CT",
+    "job_posting_url": "https://www.linkedin.com/jobs/view/3800989742/?trk=jobs_biz_prem_srch",
+    "description": "responsibilities:develop new features, fix bugs, writing & maintaining code in react, javascript, typescript, & node.js using data & analytics to improve the product & customer experienceaccountable for code quality, including writing unit & integration testsworking collaboratively with a team & refactor php & javascript code for both the frontend & backend of a b2b saas product. you will work with another developer via ping-pong programming to help you get up to speed on the code & be part of our initiative for test driven development.collaborate with the it team to implement, test, & continuously deliver new features.create & maintain endpoints.contribute to all phases of the software development lifecycle.design & develop applications in react, ensuring scalability, repeatability, support, etc.develop complex, intelligent, & secure software applications with modern technologies for implementation on both client & servicer side.build frontend uis that are simple & powerful.create code in full stack capacity – involving several languages.adhere to best practices, technical standards, etc. through testing & team-wide support.identify inefficiencies & analyze root cause & solutions.stay up to date on the newest technologies & act as sme for upper management to propose & prioritize upgrades.\r\nrequirements:0 - 3 + years of full stack software development experience bs in computer science or relevant field preferredexperience with react, html, css, typescript, api, javascript, git, mysql, node, apache, docker, aws, & other technologies & languages.experience creating/maintaining endpoints.strong background building authenticated apis.experience/knowledge of aws lambda functionality.ability to accurately estimate project scope & tasks, self-starter capable of taking on tasks without explicit direction\r\n information technology",
+    "skills_required": [
+      "Code quality",
+      "Unit testing",
+      "Integration testing",
+      "Collaboration",
+      "Ping-pong programming",
+      "Test-driven development",
+      "Full-stack development",
+      "API development",
+      "Estimation",
+      "Problem-solving"
+    ],
+    "job_id": "3800989742",
+    "confidence_score": "1.0130"
+  }
+]

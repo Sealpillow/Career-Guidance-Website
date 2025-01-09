@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% set show_sidebar = False %}
+{% set current_page = 'signup' %}
+
+{% block title %}
+    Sign Up - NTUCCDS
+{% endblock %}
+
+{% block content %}
+    <div class="container-ls">
+        <h2>Sign Up</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="email" placeholder="Email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p style="margin-top: 10px;" class="body">Already a member? <a href="/">Login</a></p>
+        {% if error_message%}
+        <p style="color:red">{{error_message}}</p>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% set show_sidebar = True %}
+{% set current_page = 'jobMatching' %}
+
+{% block title %}
+    LeetCode - NTUCCDS
+{% endblock %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='leetcode.css')}}">
+{% endblock %} <!-- Additional styles block -->
+
+{% block scripts %}
+    <script src="js/script.js" defer></script>
+{% endblock %} <!-- Additional scripts block -->
+
+{% block content %}
+    <!-- Back Button -->
+    <form action="/backToJobMatch" method="post">
+        <button id="back-button">Back</button>
+    </form>    
+   
+    <!-- Back END -->
+
+    <div class="container-main">
+        <div class="question-container">
+            <h3 id="question-title">Question Title</h3>
+            <p id="question-description">Here will be the description of the LeetCode question. This will include the problem statement and any constraints.</p>
+        </div>  
+        <!-- <form action="/leetCode" method="POST">
+            <button type="submit" name="action" value="regenerate">Generate another 5 random for each difficulty</button>
+        </form> -->
+        <form action="{{ url_for('generateLeetCode', jobTitle=inputJob) }}" method="get">
+            <button type="submit">Generate another 5 random questions for each difficulty</button>
+        </form>
+        {% if csvFileName %}
+        <form action="{{ url_for('download_file', filename=csvFileName) }}" method="get">
+            <button id="downloadCSV-button" type="submit">Export CSV</button>
+        </form>
+        {% endif %}
+        {% if excelFileName %}
+        <form action="{{ url_for('download_file', filename=excelFileName) }}" method="get">
+            <button id="downloadexcel-button" type="submit">Export Excel</button>
+        </form>
+        {% endif %}
+
+        <div>
+            <h2 style="margin: 10px;">Current Questions:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Title Slug</th>
+                        <th>Difficulty</th>
+                        <th>URL</th>
+                        <th>Topic Tags</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for question in outputQns %}
+                        <tr>
+                            <td>{{ question.title }}</td>
+                            <td>{{ question.titleSlug }}</td>
+                            <td>{{ question.difficulty }}</td>
+                            <td><a href="{{ question.url }}">{{ question.url }}</a></td>
+                            <td>
+                                <ul style="margin-left: 20px;"> <!-- Adjust the margin as needed -->
+                                    {% for tag in question.topicTags %}
+                                        <li style="margin: 5;">{{ tag }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

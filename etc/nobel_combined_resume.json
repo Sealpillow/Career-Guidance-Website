@@ -1,0 +1,102 @@
+{
+    "contact": "Nobel Chua +65 9721 7297 | nobelchua@yahoo.com.sg | https://www.linkedin.com/in/nobelchua/",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Pursuing double degrees in Business (Business Analytics) and Engineering (Computer Science) from August 2021 to May 2025",
+                    "Strong academic track record with a CGPA of 3.95 in Business Analytics and 3.84 in Computer Science",
+                    "Developed analytical and programming skills through courses in Python, SQL, Data Structures, and Algorithmic Thinking",
+                    "Participated in data-driven projects and research initiatives, demonstrating proficiency in data analysis and visualization"
+                ]
+            },
+            {
+                "university": "University of Groningen, Netherlands",
+                "details": [
+                    "Completed a Student Exchange Programme from January 2024 to July 2024"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "MSC Maritime Case Summit 2023 - Optimizing Data Pipelines for Sustainable Maritime Operations",
+                "details": [
+                    "Designed and implemented a gamified approach to seafaring data processing using Talend, leveraging ETL workflows to enhance data quality and streamline data pipelines",
+                    "Developed an innovative wearable device for open reporting, utilizing Apache Spark and Python to automate data management and troubleshoot performance issues",
+                    "Engineered an AR-based training program for seafarer upskilling, applying machine learning algorithms and data visualization techniques to optimize training outcomes"
+                ]
+            },
+            {
+                "project_title": "BHP, MSC Maritime Case Summit 2022 - Decarbonization Technologies for Sustainable Maritime Futures",
+                "details": [
+                    "Conducted comprehensive analysis of leading decarbonization technologies and alternative fuels, applying data-driven insights to inform strategic decisions",
+                    "Designed and engineered an electric-powered engine for maritime vessels, utilizing SQL and NoSQL database technologies to optimize design and retrofit plans",
+                    "Developed a long-term project plan with a 30-year forecast, leveraging data visualization and market trend analysis to assess financial viability and evaluate implementation strategies"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "experience": [
+            {
+                "position_title": "Data Engineer Intern",
+                "company": "Goodie Technology",
+                "details": [
+                    "Designed and implemented data pipelines using Talend, Apache Spark, and Python to process and analyze data from various sources",
+                    "Collaborated with stakeholders to understand data requirements and ensured data quality, contributing to increased business intelligence",
+                    "Utilized SQL and database technologies to troubleshoot performance issues and optimize data infrastructure for improved efficiency"
+                ]
+            }
+        ]
+    },
+    "co_curricular": {
+        "co_curricular_activities": [
+            {
+                "activity_name": "Business Manager, Freshman Orientation Programme 2022",
+                "details": [
+                    "Secured more than SGD 20,000 in cash and product sponsorships from various companies",
+                    "Collaborated with stakeholders to ensure seamless execution of responsibilities, demonstrating project management and teamwork skills",
+                    "Effectively negotiated and managed sponsorship deals, developing strong communication and negotiation skills"
+                ]
+            },
+            {
+                "activity_name": "Chief Programmer, Freshmen Transition Orientation Program 2022",
+                "details": [
+                    "Developed and implemented a 3-day program schedule, leveraging project management skills to ensure smooth execution",
+                    "Designed and implemented engaging games and activities, showcasing creative problem-solving skills",
+                    "Collaborated with key stakeholders to structure and execute the event, demonstrating strong communication and teamwork skills"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "skills": {
+            "language_skills": [
+                {
+                    "language": "English",
+                    "proficiency": "Fluent"
+                }
+            ],
+            "programming_languages": [
+                "Python",
+                "SQL"
+            ],
+            "frameworks_libraries": [
+                "Talend",
+                "Apache Spark"
+            ],
+            "technologies": [
+                "ETL",
+                "Data Pipelines",
+                "Relational Databases",
+                "NoSQL Databases",
+                "Data Quality"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

@@ -1,0 +1,76 @@
+{
+    "contact": "SIM Oi Liang | Mobile No.: +6594289106| Email: osim001@e.ntu.edu.sg | GitHub",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Pursuing a Bachelor of Engineering in Computer Science, with expected graduation in April 2025 and a strong prospect of achieving Second Class Honors.",
+                    "Currently maintaining a CGPA of 4.45/5.00, showcasing exceptional academic performance and dedication to learning.",
+                    "Developing a solid foundation in computer science, with coursework in data structures, algorithms, computer networks, and database systems, aligning with the demands of the Data Engineer role."
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "Database Project Design",
+                "details": [
+                    "Designed a scalable and efficient SQL database for a bookstore application",
+                    "Created an entity-relationship model in Microsoft SQL Server to ensure data integrity and consistency",
+                    "Developed SQL queries to retrieve accurate data from the database, showcasing proficiency in database querying"
+                ]
+            },
+            {
+                "project_title": "Android Car Parking Application",
+                "details": [
+                    "Utilized React Native and Android Studio to design user-friendly interfaces",
+                    "Integrated backend database using Firebase APIs to fetch data and display it on the frontend",
+                    "Conducted thorough black box tests on the Android application to ensure quality and reliability"
+                ]
+            },
+            {
+                "project_title": "Movie Tickets Booking System",
+                "details": [
+                    "Applied Object Oriented Programming principles and design patterns to design a maintainable and scalable system architecture",
+                    "Wrote highly reusable and extensible code for the system using Java",
+                    "Employed Layered Architecture and Inheritance principle to optimize system performance"
+                ]
+            },
+            {
+                "project_title": "Anime Popularity Prediction",
+                "details": [
+                    "Developed an Artificial Intelligent model to estimate anime popularity rating using neural networks",
+                    "Utilized data pre-processing strategies to prepare datasets for modeling and prediction",
+                    "Designed a predictive model that enables producers to make informed decisions about anime releases"
+                ]
+            }
+        ]
+    },
+    "experience": null,
+    "co_curricular": null,
+    "skills": {
+        "skills": {
+            "languages": [
+                "English - Proficient",
+                "Chinese - Proficient"
+            ],
+            "programming_languages": [
+                "Python",
+                "SQL"
+            ],
+            "frameworks_libraries": [
+                "Apache Spark",
+                "Talend"
+            ],
+            "technologies": [
+                "Visual Studio Code",
+                "Jupyter Notebook",
+                "Microsoft Office"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

@@ -1,0 +1,83 @@
+{
+    "contact": "SIM Oi Liang | Mobile No.: +6594289106| Email: osim001@e.ntu.edu.sg | GitHub",
+    "education": {
+        "education": [
+            {
+                "university": "Nanyang Technological University, Singapore",
+                "details": [
+                    "Aug 2021 - Present, Bachelor of Engineering (Computer Science)",
+                    "Expected graduation in April 2025 with a potential Second Class Honors, maintaining a strong academic record with a current CGPA of 4.45/5.00",
+                    "Developing a solid foundation in computer science, with a focus on software development, data structures, and algorithms"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "project_title": "Database Project Design",
+                "details": [
+                    "Designed a scalable and efficient SQL database for Bookstores using Microsoft SQL Server, leveraging Entity-Relationship modeling to ensure accurate data retrieval.",
+                    "Defined optimized SQL queries to streamline data processing and enhance query performance."
+                ]
+            },
+            {
+                "project_title": "Android Car Parking Application",
+                "details": [
+                    "Developed a user-centric Android application using React Native and Android Studio, integrating a backend database with Firebase APIs to provide seamless data fetching and display.",
+                    "Conducted black box testing to ensure the application's robustness and reliability."
+                ]
+            },
+            {
+                "project_title": "Movie Tickets Booking System",
+                "details": [
+                    "Utilized Object Oriented Programming principles, including Layered Architecture and Inheritance, to design a highly extensible, reusable, and maintainable code framework for the system using Java.",
+                    "Achieved high cohesion and low coupling through modular design, ensuring the system's adaptability to future changes."
+                ]
+            },
+            {
+                "project_title": "Anime Popularity Prediction",
+                "details": [
+                    "Designed an Artificial Intelligence model using neural networks and data pre-processing strategies to estimate anime popularity ratings, enabling producers to optimize decision-making for releasing anime?",
+                    "Employed data-driven insights to inform product decisions, showcasing the potential for AI-enhanced business intelligence in the entertainment industry."
+                ]
+            }
+        ]
+    },
+    "experience": null,
+    "co_curricular": null,
+    "skills": {
+        "skills": {
+            "languages": [
+                "English - Proficient",
+                "Chinese - Proficient",
+                "Malay - Conversant"
+            ],
+            "programming_languages": [
+                "Java",
+                "JavaScript",
+                "C++",
+                "C",
+                "C#",
+                "Python",
+                "SQL"
+            ],
+            "frameworks_libraries": [
+                "React Native",
+                "TensorFlow",
+                "Keras",
+                "NumPy",
+                "Pandas"
+            ],
+            "technologies": [
+                "Microsoft Office",
+                "Visual Studio Code",
+                "Visual Studio",
+                "Eclipse IDE",
+                "Jupyter Notebook"
+            ]
+        }
+    },
+    "achievements": null,
+    "interests": null
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Default Title{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+    {% block extra_styles %}{% endblock %} <!-- Additional styles block -->
+</head>
+<body>
+
+    {% block scripts %}{% endblock %} <!-- Additional scripts block -->
+    
+    <header>
+        <h1>NTUCCDS</h1>
+    </header>
+    <div class="container">
+
+        {% if show_sidebar %}
+        <div class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li class="{% if current_page == 'main' %}active{% endif %}">
+                    <a href="/">Home</a>
+                </li>
+                <li class="{% if current_page == 'profile' %}active{% endif %}">
+                    <a href="profile">Profile</a>
+                </li>  
+                <li class="{% if current_page == 'jobMatching' %}active{% endif %}">
+                    <a href="jobMatching">Job Matching</a>
+                </li>  
+                <li>
+                    <a href="logout">Logout</a>
+                </li>  
+            </ul>
+        </div>
+        {% endif %}
+
+        <!-- Main content block for specific page content -->
+        <div class="main-content">
+            {% block content %}
+            <!-- Page-specific content will be rendered here -->
+            {% endblock %}
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+</body>
+</html>
